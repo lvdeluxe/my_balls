@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="background.jpg"	x="101"	y="260"	width="32"	height="32" frameX="-0" frameY="-0" frameWidth="32" frameHeight="32"/>
+	<SubTexture name="ball.png"	x="101"	y="326"	width="32"	height="32" frameX="-0" frameY="-0" frameWidth="32" frameHeight="32"/>
+	<SubTexture name="btn_off.png"	x="0"	y="297"	width="100"	height="100" frameX="-0" frameY="-0" frameWidth="100" frameHeight="100"/>
+	<SubTexture name="btn_on.png"	x="0"	y="196"	width="100"	height="100" frameX="-0" frameY="-0" frameWidth="100" frameHeight="100"/>
+	<SubTexture name="enemy_container_left.png"	x="134"	y="196"	width="16"	height="32" frameX="-0" frameY="-0" frameWidth="16" frameHeight="32"/>
+	<SubTexture name="enemy_container_right.png"	x="132"	y="359"	width="16"	height="32" frameX="-0" frameY="-0" frameWidth="16" frameHeight="32"/>
+	<SubTexture name="enemy_left.png"	x="0"	y="463"	width="33"	height="32" frameX="-0" frameY="-0" frameWidth="33" frameHeight="32"/>
+	<SubTexture name="enemy_right.png"	x="34"	y="463"	width="33"	height="32" frameX="-0" frameY="-0" frameWidth="33" frameHeight="32"/>
+	<SubTexture name="futuraBT_0.png"	x="0"	y="0"	width="503"	height="195" frameX="-1" frameY="-4" frameWidth="512" frameHeight="256"/>
+	<SubTexture name="platform.jpg"	x="101"	y="293"	width="32"	height="32" frameX="-0" frameY="-0" frameWidth="32" frameHeight="32"/>
+	<SubTexture name="platform_destructible.jpg"	x="68"	y="463"	width="32"	height="32" frameX="-0" frameY="-0" frameWidth="32" frameHeight="32"/>
+	<SubTexture name="platform_shadow.png"	x="0"	y="398"	width="96"	height="64" frameX="-0" frameY="-0" frameWidth="96" frameHeight="64"/>
+	<SubTexture name="platform_shadow_destruct.png"	x="97"	y="398"	width="64"	height="64" frameX="-0" frameY="-0" frameWidth="64" frameHeight="64"/>
+	<SubTexture name="platform_shadow_destruct_end.png"	x="101"	y="196"	width="32"	height="63" frameX="-0" frameY="-0" frameWidth="32" frameHeight="64"/>
+	<SubTexture name="star.png"	x="101"	y="359"	width="30"	height="30" frameX="-2" frameY="-0" frameWidth="32" frameHeight="32"/>
+	<SubTexture name="wall_tile.jpg"	x="101"	y="463"	width="32"	height="32" frameX="-0" frameY="-0" frameWidth="32" frameHeight="32"/>
+</TextureAtlas>

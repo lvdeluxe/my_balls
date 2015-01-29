@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="MyBalls">
+    <configurations>
+      <configuration name="MyBalls" target-platform="Mobile" pure-as="true" main-class="Main" output-file="MyBalls.swf" output-folder="$MODULE_DIR$/bin/MyBalls">
+        <dependencies target-player="14.0">
+          <entries>
+            <entry library-name="lib" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_15" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="false" />
+          </map>
+          <option name="additionalOptions" value="-debug=false -optimize=true" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android package-file-name="MyBalls" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app.xml" package-file-name="MyBalls">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-568h@2x~iphone.png" path-in-package="Default-568h@2x~iphone.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape@2x~ipad.png" path-in-package="Default-Landscape@2x~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape~ipad.png" path-in-package="Default-Landscape~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait@2x~ipad.png" path-in-package="Default-Portrait@2x~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait~ipad.png" path-in-package="Default-Portrait~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default@2x~iphone.png" path-in-package="Default@2x~iphone.png" />
+          </files-to-package>
+          <AirSigningOptions keystore-path="$MODULE_DIR$/mobile/iphone_dev.p12" provisioning-profile-path="$MODULE_DIR$/mobile/BallFall.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+      <configuration name="MyBalls_debug" target-platform="Mobile" pure-as="true" main-class="Main" output-file="MyBalls_debug.swf" output-folder="$MODULE_DIR$/bin/MyBalls">
+        <dependencies>
+          <entries>
+            <entry library-name="lib" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK_15" />
+        </dependencies>
+        <compiler-options>
+          <map>
+            <entry key="compiler.debug.swf" value="true" />
+          </map>
+          <option name="additionalOptions" value="-advanced-telemetry" />
+        </compiler-options>
+        <packaging-air-desktop />
+        <packaging-android package-file-name="MyBalls_debug" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app.xml" package-file-name="MyBalls_debug">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-568h@2x~iphone.png" path-in-package="Default-568h@2x~iphone.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape@2x~ipad.png" path-in-package="Default-Landscape@2x~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape~ipad.png" path-in-package="Default-Landscape~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait@2x~ipad.png" path-in-package="Default-Portrait@2x~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait~ipad.png" path-in-package="Default-Portrait~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default@2x~iphone.png" path-in-package="Default@2x~iphone.png" />
+          </files-to-package>
+          <AirSigningOptions keystore-path="$MODULE_DIR$/mobile/iphone_dev.p12" provisioning-profile-path="$MODULE_DIR$/mobile/BallFall.mobileprovision" />
+        </packaging-ios>
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../libs/Citrus-Engine/src">
+      <sourceFolder url="file://$MODULE_DIR$/../libs/Citrus-Engine/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../libs/Dynamic-Texture-Atlas-Generator/dynamicTextureAtlasGenerator/src">
+      <sourceFolder url="file://$MODULE_DIR$/../libs/Dynamic-Texture-Atlas-Generator/dynamicTextureAtlasGenerator/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../libs/Starling-FFParticleSystem/src">
+      <sourceFolder url="file://$MODULE_DIR$/../libs/Starling-FFParticleSystem/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../libs/Starling-Framework/starling/src">
+      <sourceFolder url="file://$MODULE_DIR$/../libs/Starling-Framework/starling/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../libs/eaze-tween/src">
+      <sourceFolder url="file://$MODULE_DIR$/../libs/eaze-tween/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../libs/feathers/source">
+      <sourceFolder url="file://$MODULE_DIR$/../libs/feathers/source" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../libs/starling-extensions/src">
+      <sourceFolder url="file://$MODULE_DIR$/../libs/starling-extensions/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK_15" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+  </component>
+</module>
+
