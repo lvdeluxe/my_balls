@@ -4,6 +4,8 @@ bin-debug/
 bin-release/
 *.p12
 *.mobileprovision
+*.psd
+*.zip
 
 # Other files and folders
 .settings/
