@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AirPackageProjectParameters">
+    <option name="deselectedBCs" value="MyBalls&#9;MyBalls&#10;MyBalls&#9;MyBalls_debug" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="821bea97-a735-4243-a277-1e0c6065e1a8" name="Default" comment="" />
     <ignored path="MyBalls.iws" />
@@ -64,66 +67,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NapeWall.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/NapeWall.as">
+      <file leaf-file-name="GBall.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GBall.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="55" selection-start="647" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="384" max-vertical-offset="800">
+            <state line="78" column="35" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0" vertical-offset="827" max-vertical-offset="1581">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlatformView.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformView.as">
+      <file leaf-file-name="GPlatformFactory.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GPlatformFactory.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="44" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssetsManager.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/AssetsManager.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="859" selection-end="859" vertical-scroll-proportion="0.3995984" vertical-offset="201" max-vertical-offset="2080">
+            <state line="93" column="0" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.39534885" vertical-offset="1258" max-vertical-offset="3961">
               <folding>
-                <element signature="e#73#105#0" expanded="true" />
+                <element signature="e#83#123#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DestructiblePlatform.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/DestructiblePlatform.as">
+      <file leaf-file-name="GSpike.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GSpike.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="10" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="2304">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlatformFactory.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformFactory.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="42" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0" vertical-offset="1408" max-vertical-offset="2992">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NapePlatform.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/NapePlatform.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="49" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0" vertical-offset="896" max-vertical-offset="1440">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameState.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/GameState.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="54" selection-start="3401" selection-end="3489" vertical-scroll-proportion="0.0" vertical-offset="2064" max-vertical-offset="3456">
+            <state line="42" column="18" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -142,57 +109,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/NapeWall.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/Background.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/MyBalls.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/MainMenuState.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/GameState.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/ArrowPlatform.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/obstacles/CustomEnemy.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/BallSensor.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/obstacles/NapeArrow.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/PlatformFactory.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/platformer/nape/Platform.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/platformer/nape/Sensor.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/GameConstants.as" />
-        <option value="$PROJECT_DIR$/src/assets/atlas.xml" />
-        <option value="$PROJECT_DIR$/../libs/Starling-Framework/starling/src/starling/display/Image.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/NapePhysicsObject.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/starlingview/StarlingPhysicsDebugView.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/NapeObjectPool.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/core/CitrusObject.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/obstacles/CustomEnemy.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/datastructures/PoolObject.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GameHUD.as" />
-        <option value="$PROJECT_DIR$/../libs/feathers/source/feathers/display/TiledImage.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/obstacles/ArrowContainer.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/Background.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/BallBody.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/platformer/nape/Enemy.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/starlingview/StarlingArt.as" />
-        <option value="$PROJECT_DIR$/../libs/starling-extensions/src/com/krechagames/Krecha.as" />
-        <option value="$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/starlingview/StarlingCamera.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/bonus/NapeStar.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/ArrowPlatform.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/obstacles/NapeCritter.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformMarker.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/GameSignals.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/StarPlatform.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/CritterPlatform.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/DestructibleGroup.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/NapePlatform.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/ui/UIManager.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/platforms/GSpikesPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/platforms/GStarsPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/particles/BonusAffector.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/particles/BonusParticles.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/particles/BonusStarsParticles.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/utils/ExtendedTimer.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/GBonus.as" />
         <option value="$PROJECT_DIR$/src/assets/sprites.xml" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/obstacles/NapeArrow.as" />
-        <option value="$PROJECT_DIR$/../libs/feathers/source/feathers/display/Scale9Image.as" />
-        <option value="$PROJECT_DIR$/../libs/feathers/source/feathers/display/Scale3Image.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformFactory.as" />
-        <option value="$PROJECT_DIR$/src/Main.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/GameState.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/NapeWall.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/DestructiblePlatform.as" />
-        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformView.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/GameConstants.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/ParticlesFactory.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/GBall.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/platforms/GDestructiblePlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/GButton.as" />
+        <option value="$PROJECT_DIR$/src/assets/fonts/futura.fnt" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/platforms/GPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/GStar.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/GPauseButton.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/GameSignals.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/GCloseButton.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/UIManager.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/genome/GPlatformFactory.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/utils/VirtualJoystick.as" />
+        <option value="$PROJECT_DIR$/MyBalls-app.xml" />
+        <option value="$PROJECT_DIR$/src/MainGenome.as" />
+        <option value="$PROJECT_DIR$/src/assets/prototypes/arrowPlatform_proto.xml" />
+        <option value="$PROJECT_DIR$/src/assets/prototypes/critterPlatform_proto.xml" />
+        <option value="$PROJECT_DIR$/src/assets/prototypes/defaultPlatform_proto.xml" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/UIManager.as" />
         <option value="$PROJECT_DIR$/src/com/deluxe/myballs/AssetsManager.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/physics/GNapePhysics.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GMovingPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/game/GCritter.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GCritterPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GButton.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GCloseButton.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GPauseButton.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GDestructiblePlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/SoundManager.as" />
+        <option value="$PROJECT_DIR$/src/Main.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/ui/UIManager.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/game/GStar.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/game/GArrow.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/game/GBonus.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/game/GSpike.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/game/GWall.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GArrowPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GSpikesPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GStarsPlatform.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/game/GBall.as" />
+        <option value="$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GPlatformFactory.as" />
       </list>
     </option>
   </component>
@@ -200,7 +167,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -228,7 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,6 +223,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="my_balls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBalls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyBalls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_balls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -271,43 +255,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
+              <option name="myItemId" value="my_balls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -325,7 +281,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
+              <option name="myItemId" value="my_balls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -333,11 +289,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="myballs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="states" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,7 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
+              <option name="myItemId" value="my_balls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -359,11 +319,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myballs" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="states" />
+              <option name="myItemId" value="myballs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -381,7 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
+              <option name="myItemId" value="my_balls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -389,19 +349,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myballs" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="states" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
+              <option name="myItemId" value="extended" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
+              <option name="myItemId" value="my_balls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -437,7 +389,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyBalls" />
+              <option name="myItemId" value="my_balls" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -448,6 +400,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,11 +415,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/starling-extensions/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyBalls-app.xml" />
     <property name="FullScreen" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -474,24 +427,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\genome" />
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\genome\particles" />
+      <recent name="C:\deluxe\my_balls\src\assets\prototypes" />
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\genome\platforms" />
       <recent name="C:\deluxe\MyBalls\src\com\deluxe\myballs\states\game\platforms" />
-      <recent name="C:\deluxe\MyBalls\src\com\deluxe\myballs\platforms" />
-      <recent name="C:\deluxe\MyBalls\src" />
-      <recent name="C:\deluxe\MyBalls\src\assets" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="com.deluxe.myballs.states.game.platforms" />
-      <recent name="com.deluxe.myballs.ui" />
-      <recent name="com.deluxe.myballs.states.game.bonus" />
-      <recent name="com.deluxe.myballs.states.game" />
+      <recent name="com.deluxe.myballs" />
+      <recent name="com.deluxe.myballs.genome" />
+      <recent name="com.deluxe.myballs.genome.particles" />
+      <recent name="com.adobe.utils.extended" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\deluxe\MyBalls\src\com\deluxe\myballs\states\game" />
-      <recent name="C:\deluxe\MyBalls\src\com\deluxe\myballs\states" />
-      <recent name="C:\deluxe\MyBalls\src\com\deluxe\myballs" />
-      <recent name="C:\deluxe\MyBalls\src\ui" />
-      <recent name="C:\deluxe\MyBalls\src\obstacles" />
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\physics" />
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms" />
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\particles" />
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\game" />
+      <recent name="C:\deluxe\my_balls\src\com\deluxe\myballs\ui" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.MyBalls_device">
@@ -675,9 +629,85 @@
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="BallFall_standalone" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="BallFall_standalone" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="Player" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="$USER_HOME$/Downloads/flashplayer_15_sa_debug.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="MyBalls" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BallFall_android" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="BallFall_android" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="AndroidDevice" />
+      <option name="moduleName" value="MyBalls" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Flash App.MyBalls_emul" />
       <item index="1" class="java.lang.String" itemvalue="Flash App.MyBalls_device" />
+      <item index="2" class="java.lang.String" itemvalue="Flash App.BallFall_standalone" />
+      <item index="3" class="java.lang.String" itemvalue="Flash App.BallFall_android" />
     </list>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -717,30 +747,50 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32797858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253012" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2966443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47820345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3395973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28993288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32797858" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29011554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3216146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24326059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31836197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33154362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41347423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45706737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -786,7 +836,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -794,277 +844,289 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/ui/GameHUD.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/GNodeLayers.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="64" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="816" />
+        <state line="10" column="42" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/BallBody.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/physics/NapeCollisionTypes.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1120" />
+        <state line="15" column="37" selection-start="568" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/ISpriteView.as">
+    <entry file="jar://$PROJECT_DIR$/lib/greensock.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="40" selection-start="6223" selection-end="6223" vertical-scroll-proportion="3.421268" vertical-offset="759" max-vertical-offset="2832" />
+        <state line="1978" column="30" selection-start="95334" selection-end="95334" vertical-scroll-proportion="0.7659033" vertical-offset="33325" max-vertical-offset="49232" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/starlingview/StarlingArt.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/OrbParticle.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="388" column="0" selection-start="12641" selection-end="12641" vertical-scroll-proportion="0.430839" vertical-offset="5458" max-vertical-offset="7760" />
+        <state line="11" column="33" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/spriteview/SpriteArt.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/OrbAffector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="33" selection-start="8542" selection-end="8542" vertical-scroll-proportion="0.120181404" vertical-offset="3963" max-vertical-offset="5392" />
+        <state line="20" column="46" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/platformer/nape/Enemy.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusAffector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="64" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.35431236" vertical-offset="952" max-vertical-offset="2544" />
+        <state line="23" column="31" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="527" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/starling-extensions/src/com/krechagames/Krecha.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/BallParticles.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="928" />
+        <state line="11" column="54" selection-start="352" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/starling-extensions/src/com/krechagames/demos/ScrollExamples.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/ExplodeParticles.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2544" />
+        <state line="51" column="28" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0" vertical-offset="559" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/core/starling/StarlingCitrusEngine.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/utils/ExtendedTimer.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="0" selection-start="9089" selection-end="9089" vertical-scroll-proportion="0.6729858" vertical-offset="4244" max-vertical-offset="6112" />
+        <state line="20" column="25" selection-start="637" selection-end="638" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1122" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/ACitrusCamera.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusStarsParticles.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="608" column="37" selection-start="19434" selection-end="19434" vertical-scroll-proportion="0.0" vertical-offset="9372" max-vertical-offset="9984" />
+        <state line="52" column="28" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" vertical-offset="253" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/bonus/NapeStar.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusParticles.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="39" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="880" />
+        <state line="14" column="21" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="323" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/obstacles/NapeCritter.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusParticle.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1136" />
+        <state line="7" column="17" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformMarker.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/OrbParticles.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="591" selection-end="591" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="384" />
+        <state line="12" column="49" selection-start="491" selection-end="491" vertical-scroll-proportion="0.37658226" vertical-offset="0" max-vertical-offset="316" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/AIRSDK_15/frameworks/libs/air/airglobal.swc!/library.swf">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/OrbInitializer.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="364" column="22" selection-start="15477" selection-end="15477" vertical-scroll-proportion="0.33333334" vertical-offset="5588" max-vertical-offset="233728" />
+        <state line="20" column="28" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="629" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/NapePhysicsObject.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/GameConstants.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="51" selection-start="7414" selection-end="7414" vertical-scroll-proportion="0.28440368" vertical-offset="3907" max-vertical-offset="5664" />
+        <state line="11" column="56" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/NapeObjectPool.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/physics/NapeComponent.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.3130194" vertical-offset="703" max-vertical-offset="1440" />
+        <state line="68" column="42" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1530" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/datastructures/PoolObject.as">
+    <entry file="file://$PROJECT_DIR$/src/assets/fonts/futura.fnt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="0" selection-start="6032" selection-end="6032" vertical-scroll-proportion="1.1333333" vertical-offset="1987" max-vertical-offset="8080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/feathers/source/feathers/textures/Scale3Textures.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.3325301" vertical-offset="726" max-vertical-offset="4144" />
+        <state line="30" column="10" selection-start="2965" selection-end="2965" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="6035" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/GameSignals.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336" />
+        <state line="24" column="33" selection-start="1137" selection-end="1148" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="595">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/ArrowPlatform.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/AccelerometerController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="55" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="608" />
+        <state line="42" column="36" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" vertical-offset="453" max-vertical-offset="1003" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/core/MediatorState.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/utils/VirtualJoystick.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="12" selection-start="3997" selection-end="3997" vertical-scroll-proportion="0.0" vertical-offset="1653" max-vertical-offset="6064" />
+        <state line="30" column="53" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1445" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/eaze-tween/src/aze/motion/EazeTween.as">
+    <entry file="file://$PROJECT_DIR$/MyBalls-app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="39" selection-start="6414" selection-end="6414" vertical-scroll-proportion="0.44418603" vertical-offset="3665" max-vertical-offset="12768" />
+        <state line="101" column="39" selection-start="4881" selection-end="4881" vertical-scroll-proportion="0.66090715" vertical-offset="1411" max-vertical-offset="4250" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/platformer/nape/Hills.as">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="43" selection-start="1021" selection-end="1021" vertical-scroll-proportion="-0.110957004" vertical-offset="560" max-vertical-offset="2752" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Starling-Framework/starling/src/starling/display/BlendMode.as">
+    <entry file="file://$PROJECT_DIR$/src/assets/prototypes/starsPlatform_proto.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="18" selection-start="3525" selection-end="3525" vertical-scroll-proportion="-0.22191401" vertical-offset="976" max-vertical-offset="1776" />
+        <state line="15" column="25" selection-start="998" selection-end="998" vertical-scroll-proportion="0.35814607" vertical-offset="0" max-vertical-offset="712" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sprites.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/CritterPlatform.as">
+    <entry file="file://$PROJECT_DIR$/src/assets/prototypes/defaultPlatform_proto.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="640" />
+        <state line="16" column="20" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.38202247" vertical-offset="0" max-vertical-offset="712" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/StarPlatform.as">
+    <entry file="file://$PROJECT_DIR$/src/assets/prototypes/critterPlatform_proto.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="54" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.48681542" vertical-offset="288" max-vertical-offset="896" />
+        <state line="14" column="122" selection-start="947" selection-end="947" vertical-scroll-proportion="0.32469305" vertical-offset="0" max-vertical-offset="733" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/DestructibleGroup.as">
+    <entry file="file://$PROJECT_DIR$/src/assets/prototypes/arrowPlatform_proto.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="1008" />
+        <state line="14" column="102" selection-start="927" selection-end="927" vertical-scroll-proportion="0.32469305" vertical-offset="0" max-vertical-offset="733" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/core/CitrusObject.as">
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/particles/ParticlesFactory.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="35" selection-start="3821" selection-end="3821" vertical-scroll-proportion="0.3991684" vertical-offset="1616" max-vertical-offset="2528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/APhysicsObject.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.39676112" vertical-offset="764" max-vertical-offset="3552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/objects/platformer/nape/Platform.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="20" selection-start="2342" selection-end="2342" vertical-scroll-proportion="0.36590436" vertical-offset="944" max-vertical-offset="1776" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/obstacles/ArrowContainer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="47" selection-start="537" selection-end="537" vertical-scroll-proportion="0.35476717" vertical-offset="0" max-vertical-offset="451" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Starling-Framework/starling/src/starling/display/Image.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="66" selection-start="6961" selection-end="6961" vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="2848" />
+        <state line="41" column="44" selection-start="1798" selection-end="1798" vertical-scroll-proportion="0.35061392" vertical-offset="151" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/sprites.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="84" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/obstacles/NapeArrow.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="30" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.0" vertical-offset="992" max-vertical-offset="2000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/ui/UIManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/starling-extensions/src/starling/extensions/krecha/ScrollImage.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="897" column="33" selection-start="26337" selection-end="26342" vertical-scroll-proportion="0.0" vertical-offset="14145" max-vertical-offset="15024" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/starling-extensions/src/starling/extensions/krecha/ScrollTile.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="64" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" vertical-offset="592" max-vertical-offset="3440" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/feathers/source/feathers/display/Scale3Image.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="317" column="54" selection-start="7015" selection-end="7015" vertical-scroll-proportion="0.046715327" vertical-offset="4640" max-vertical-offset="10352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformFactory.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="42" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="2720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/NapePlatform.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="49" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1152">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/utils/objectmakers/ObjectMakerStarling.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.21021898" vertical-offset="96" max-vertical-offset="6352" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/Citrus-Engine/src/citrus/view/starlingview/StarlingCamera.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="72" selection-start="448" selection-end="448" vertical-scroll-proportion="0.28029197" vertical-offset="0" max-vertical-offset="8560" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/GameState.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="54" selection-start="3401" selection-end="3489" vertical-scroll-proportion="0.0" vertical-offset="1452" max-vertical-offset="3424">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../libs/feathers/source/feathers/display/Scale9Image.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="320" column="75" selection-start="7084" selection-end="7084" vertical-scroll-proportion="-0.56657225" vertical-offset="5120" max-vertical-offset="10768" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/Background.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="570" selection-end="570" vertical-scroll-proportion="0.20027816" vertical-offset="0" max-vertical-offset="719" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/NapeWall.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="647" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/DestructiblePlatform.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="10" selection-start="1733" selection-end="1733" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/states/game/platforms/PlatformView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="352">
-          <folding />
-        </state>
+        <state line="18" column="37" selection-start="1743" selection-end="1758" vertical-scroll-proportion="0.23895583" vertical-offset="187" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/AssetsManager.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="859" selection-end="859" vertical-scroll-proportion="0.3995984" vertical-offset="201" max-vertical-offset="2080">
+        <state line="128" column="63" selection-start="5155" selection-end="5155" vertical-scroll-proportion="0.0" vertical-offset="1959" max-vertical-offset="4284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GCritter.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GCritterPlatform.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/physics/GNapePhysics.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="5" selection-start="3034" selection-end="3119" vertical-scroll-proportion="-0.34907597" vertical-offset="884" max-vertical-offset="1581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GMovingPlatform.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="471" selection-end="607" vertical-scroll-proportion="-0.102" vertical-offset="391" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/SoundManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="38" selection-start="1904" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="689" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="59" selection-start="4066" selection-end="4066" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="8381">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/ui/UIManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="9" selection-start="2254" selection-end="2254" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="3451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/ui/GPauseButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.032520324" vertical-offset="566" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/ui/GCloseButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="30" selection-start="1168" selection-end="1179" vertical-scroll-proportion="0.124661244" vertical-offset="515" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GStar.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="32" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.4775281" vertical-offset="323" max-vertical-offset="1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/ui/GButton.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="36" selection-start="2518" selection-end="2546" vertical-scroll-proportion="0.49322492" vertical-offset="974" max-vertical-offset="1343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GDestructiblePlatform.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="52" selection-start="4075" selection-end="4075" vertical-scroll-proportion="0.0" vertical-offset="1870" max-vertical-offset="2601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GPlatform.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="32" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GBonus.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="77" selection-end="77" vertical-scroll-proportion="-0.047887325" vertical-offset="51" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GArrow.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="419" selection-end="419" vertical-scroll-proportion="-0.04735376" vertical-offset="187" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GSpikesPlatform.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="231" selection-end="231" vertical-scroll-proportion="-0.046511628" vertical-offset="119" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GStarsPlatform.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GArrowPlatform.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GWall.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="77" selection-end="77" vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GBall.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="35" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0" vertical-offset="827" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/game/GSpike.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="18" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/deluxe/myballs/platforms/GPlatformFactory.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="0" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.39534885" vertical-offset="1258" max-vertical-offset="3961">
           <folding>
-            <element signature="e#73#105#0" expanded="true" />
+            <element signature="e#83#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1109,7 +1171,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>AIRSDK_17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1121,11 +1183,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MyBalls|MyBalls</last-edited>
+          <last-edited>MyBalls</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.24547803" />
               </list>
             </option>
           </splitter-proportions>

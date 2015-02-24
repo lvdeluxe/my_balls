@@ -2,17 +2,14 @@
  * Created by lvdeluxe on 14-08-03.
  */
 package com.deluxe.myballs.utils {
+import com.deluxe.myballs.GameConstants;
 
+import flash.display.Bitmap;
+import flash.display.Sprite;
+import flash.display.Stage;
+import flash.events.Event;
+import flash.events.MouseEvent;
 import flash.geom.Point;
-
-import starling.core.Starling;
-import starling.display.Image;
-import starling.display.Sprite;
-import starling.events.EnterFrameEvent;
-import starling.events.Touch;
-import starling.events.TouchEvent;
-import starling.events.TouchPhase;
-import starling.textures.Texture;
 
 public class VirtualJoystick extends Sprite{
 
@@ -22,71 +19,61 @@ public class VirtualJoystick extends Sprite{
 	private var JoystickTargetTexture:Class;
 
 	private var _joystickRadius:Number = 64;
-	private var _joystickTargetSprite:Image;
+	private var _joystickTargetSprite:Sprite;
 
-	private var _pivotPoint:Point = new Point();
+	public function VirtualJoystick(pStage:Stage) {
+		var joystickBitmap:Bitmap = new JoystickTexture();
+		joystickBitmap.x = -joystickBitmap.width / 2;
+		joystickBitmap.y = -joystickBitmap.height / 2;
+		addChild(joystickBitmap);
 
-	private var evt:JoystickEvent = new JoystickEvent(JoystickEvent.JOYSTICK_UPDATE);
+		_joystickTargetSprite = new Sprite();
+		var img:Bitmap = new JoystickTargetTexture();
+		img.x =  - (img.width / 2);
+		img.y =  - (img.height / 2);
+		_joystickTargetSprite.addChild(img);
+		_joystickTargetSprite.mouseEnabled = true;
 
-
-	public function VirtualJoystick() {
-		var joystickSprite:Image = new Image(Texture.fromBitmap(new JoystickTexture()));
-		addChild(joystickSprite);
-
-		_joystickTargetSprite = new Image(Texture.fromBitmap(new JoystickTargetTexture()));
-		_joystickTargetSprite.pivotX = _joystickTargetSprite.width>>1;
-		_joystickTargetSprite.pivotY = _joystickTargetSprite.height>>1;
-		_joystickTargetSprite.x = _joystickRadius;
-		_joystickTargetSprite.y = _joystickRadius;
 		addChild(_joystickTargetSprite);
 
-		pivotX = _joystickRadius;
-		pivotY = _joystickRadius;
+		x = GameConstants.SCREEN_WIDTH - _joystickRadius - 20;
+		y = _joystickRadius + 20;
+		pStage.addChild(this);
 
-		x = Starling.current.nativeStage.fullScreenWidth - (_joystickRadius + 20);
-		y = (_joystickRadius + 20);
-		Starling.current.stage.addChild(this);
-
-		_joystickTargetSprite.addEventListener(TouchEvent.TOUCH, onMouseDown);
+		addEventListener(MouseEvent.MOUSE_DOWN, onMouseDown);
+		stage.addEventListener(MouseEvent.MOUSE_UP, onMouseUp);
 	}
 
-	private function onMouseDown(event:TouchEvent):void {
-		var touch:Touch = event.getTouch(_joystickTargetSprite);
-		if(touch){
-			if(touch.phase == TouchPhase.BEGAN){
-				_joystickTargetSprite.x = touch.globalX - x + _joystickRadius;
-				_joystickTargetSprite.y	= touch.globalY - y + _joystickRadius;
-				_pivotPoint.x = touch.globalX - pivotX + _joystickTargetSprite.x;
-				_pivotPoint.y = touch.globalY - pivotY + _joystickTargetSprite.y;
-				addEventListener(EnterFrameEvent.ENTER_FRAME, onFrame);
-			}else if(touch.phase == TouchPhase.ENDED){
-				removeEventListener(EnterFrameEvent.ENTER_FRAME, onFrame);
-				evt.velX = 0;
-				evt.velY = 0;
-				dispatchEvent(evt);
-				_joystickTargetSprite.x = _joystickRadius;
-				_joystickTargetSprite.y = _joystickRadius;
-			}else if(touch.phase == TouchPhase.MOVED){
-				var distX:Number = (touch.globalX - _pivotPoint.x);
-				var distY:Number = (touch.globalY - _pivotPoint.y);
-				_joystickTargetSprite.x = distX + pivotX; _joystickTargetSprite.y = distY + pivotY;
+	private function onMouseDown(event:MouseEvent):void {
+		_joystickTargetSprite.x = event.localX;
+		_joystickTargetSprite.y	= event.localY;
+		addEventListener(Event.ENTER_FRAME, onFrame);
+	}
 
-				var dis:Number = Math.sqrt((distX * distX) + (distY * distY));
+	private function onMouseUp(event:MouseEvent):void {
+		removeEventListener(Event.ENTER_FRAME, onFrame);
+		var e:JoystickEvent = new JoystickEvent(JoystickEvent.JOYSTICK_UPDATE);
+		e.velX = 0;
+		e.velY = 0;
+		dispatchEvent(e);
+		_joystickTargetSprite.x = 0;
+		_joystickTargetSprite.y = 0;
+	}
 
-				if(((dis < 0) ? -dis : dis) > pivotX )
-				{
-					var force:Number = dis-pivotX;
-					_joystickTargetSprite.x -= distX/dis*force;
-					_joystickTargetSprite.y -= distY/dis*force;
-				}
-			}
+	private function onFrame(event:Event):void {
+		var angle:Number = Math.atan2(stage.mouseY - y,stage.mouseX - x);
+		var distance:Number = Math.sqrt(Math.pow(stage.mouseX - x, 2) + Math.pow(stage.mouseY - y, 2));
+		if (Math.ceil(distance) >= _joystickRadius) {
+			_joystickTargetSprite.x = (Math.cos(angle) * _joystickRadius);
+			_joystickTargetSprite.y = (Math.sin(angle) * _joystickRadius);
+		} else {
+			_joystickTargetSprite.x = stage.mouseX - x;
+			_joystickTargetSprite.y = stage.mouseY - y;
 		}
-	}
-
-	private function onFrame(event:EnterFrameEvent):void {
-		evt.velX = (_joystickTargetSprite.x / _joystickRadius) - 1;
-		evt.velY = (_joystickTargetSprite.y / _joystickRadius) - 1;
-		dispatchEvent(evt);
+		var e:JoystickEvent = new JoystickEvent(JoystickEvent.JOYSTICK_UPDATE);
+		e.velX = _joystickTargetSprite.x / _joystickRadius;
+		e.velY = _joystickTargetSprite.y / _joystickRadius;
+		dispatchEvent(e);
 	}
 }
 }

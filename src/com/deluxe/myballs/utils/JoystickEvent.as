@@ -2,7 +2,7 @@
  * Created by lvdeluxe on 14-09-07.
  */
 package com.deluxe.myballs.utils {
-import starling.events.Event;
+import flash.events.Event;
 
 public class JoystickEvent extends Event
 {
@@ -11,8 +11,8 @@ public class JoystickEvent extends Event
 	public var velX:Number;
 	public var velY:Number;
 
-	public function JoystickEvent(type:String, bubbles:Boolean=false, data:Object=null) {
-		super(type, bubbles, data);
+	public function JoystickEvent(type:String,bubbles:Boolean = false,cancelable:Boolean = false) {
+		super(type, bubbles, cancelable);
 	}
 }
 }

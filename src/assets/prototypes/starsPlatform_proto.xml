@@ -1,0 +1,20 @@
+<node name="GNode#2" mouseEnabled="false" mouseChildren="true">
+    <components>
+        <component id="" componentClass="com.genome2d.components.GTransform" componentLookupClass="com.genome2d.components.GTransform">
+            <properties>
+                <property name="useWorldSpace" type="Bool" value="false"/>
+                <property name="useWorldColor" type="Bool" value="false"/>
+                <property name="x" type="Float" value="-128"/>
+                <property name="y" type="Float" value="-16"/>
+                <property name="scaleX" type="Float" value="1"/>
+                <property name="scaleY" type="Float" value="1"/>
+                <property name="rotation" type="Float" value="0"/>
+                <property name="alpha" type="Float" value="1"/>
+            </properties>
+        </component>
+        <component componentClass="com.deluxe.myballs.platforms.GStarsPlatform" componentLookupClass="com.deluxe.myballs.platforms.GStarsPlatform">
+            <properties/>
+        </component>
+    </components>
+    <children/>
+</node>
