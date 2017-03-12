@@ -23,7 +23,7 @@ public class VirtualJoystick extends Sprite{
 
 	public function VirtualJoystick(pStage:Stage) {
 		var joystickBitmap:Bitmap = new JoystickTexture();
-		joystickBitmap.x = -joystickBitmap.width / 2;
+       joystickBitmap.x = -joystickBitmap.width / 2;
 		joystickBitmap.y = -joystickBitmap.height / 2;
 		addChild(joystickBitmap);
 

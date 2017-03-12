@@ -2,19 +2,19 @@
  * Created by lvdeluxe on 15-02-06.
  */
 package com.deluxe.myballs.game {
+import aze.motion.easing.Quadratic;
+import aze.motion.eaze;
+
 import com.deluxe.myballs.*;
 
 import com.deluxe.myballs.AssetsManager;
 import com.deluxe.myballs.GameConstants;
 import com.deluxe.myballs.GameSignals;
-import com.deluxe.myballs.particles.BonusStarsParticles;
+import com.deluxe.myballs.audio.SoundManager;
 import com.deluxe.myballs.physics.NapeCollisionTypes;
 import com.deluxe.myballs.physics.NapeComponent;
 import com.genome2d.Genome2D;
 import com.genome2d.components.renderables.GSprite;
-import com.genome2d.node.factory.GNodeFactory;
-import com.greensock.TweenLite;
-import com.greensock.easing.Quad;
 
 import nape.phys.Body;
 import nape.shape.Polygon;
@@ -23,23 +23,35 @@ import nape.shape.Shape;
 public class GStar extends NapeComponent{
 
 	private var _view:GSprite;
-    private var _bonusParticles:BonusStarsParticles;
+	public var angle:Number = 0;
 
-    private static var _IS_BONUS:Boolean = false;
+	private var _radius:Number = 5;
+	private var _speed:Number = 0.05;
+	private var _doOscillate:Boolean = true;
+
+    public static var IS_BONUS:Boolean = false;
 
 	public function GStar() {
 		super();
+		_radius = 5 * GameConstants.ASSETS_SCALE;
 	}
 
 	private function onStarCollect(pBody:Body):void {
 		if(pBody == _body){
             animate();
             SoundManager.playCollectSfx();
-            _bonusParticles.emit = false;
+		}
+	}
+
+	public function oscillate(pY:Number):void{
+		if(_doOscillate) {
+			y = (pY) - GameConstants.TILE_SIZE + Math.cos(angle) * _radius;
+			angle += _speed;
 		}
 	}
 
     private function animate():void{
+		_doOscillate = false;
         _body.space = null;
         Genome2D.getInstance().root.getChildAt(GNodeLayers.PARTICLES_LAYER).removeChild(node);
         Genome2D.getInstance().root.getChildAt(GNodeLayers.UI_LAYER).getChildAt(1).addChild(node);
@@ -47,7 +59,8 @@ public class GStar extends NapeComponent{
         var newX:Number = (node.transform.x - Genome2D.getInstance().root.getChildAt(GNodeLayers.UI_LAYER).transform.x);
         node.transform.y = newY;
         node.transform.x = newX;
-        TweenLite.to(node.transform, 0.5, {x: - (GameConstants.SCREEN_WIDTH / 2) + (GameConstants.TILE_SIZE * 2), y: - (GameConstants.SCREEN_HEIGHT / 2) + GameConstants.TILE_SIZE, ease:Quad.easeOut, onComplete:onAnimComplete});
+        var posX:Number = -(GameConstants.SCREEN_WIDTH / 2) + (AssetsManager.getStarTexture().width / 2) + (uint(GameConstants.TILE_SIZE / 5) * 2) + GameConstants.TILE_SIZE
+        eaze(node.transform).to(0.5, {x: posX, y: - (GameConstants.SCREEN_HEIGHT / 2) + GameConstants.TILE_SIZE}).easing(Quadratic.easeOut).onComplete(onAnimComplete);
     }
 
     private function onAnimComplete():void{
@@ -58,22 +71,18 @@ public class GStar extends NapeComponent{
 
 	override public function activate():void{
 		super.activate();
-        _bonusParticles.node.transform.setPosition(x,y - 2);
-        Genome2D.getInstance().root.getChildAt(GNodeLayers.PARTICLES_LAYER).addChild(_bonusParticles.node);
-        _bonusParticles.emit = _IS_BONUS;
+		_doOscillate = true;
 		GameSignals.COLLECT_STAR.add(onStarCollect);
 		GameSignals.STAR_BONUS_START.add(onBonusStart);
 		GameSignals.STAR_BONUS_END.add(onBonusEnd);
 	}
 
     private function onBonusStart():void{
-        _IS_BONUS = true;
-        _bonusParticles.emit = true;
+        IS_BONUS = true;
     }
 
     private function onBonusEnd():void{
-        _IS_BONUS = false;
-        _bonusParticles.emit = false;
+        IS_BONUS = false;
     }
 
 	override public function deactivate():void{
@@ -81,7 +90,7 @@ public class GStar extends NapeComponent{
 		GameSignals.COLLECT_STAR.remove(onStarCollect);
         GameSignals.STAR_BONUS_START.remove(onBonusStart);
         GameSignals.STAR_BONUS_END.remove(onBonusEnd);
-        Genome2D.getInstance().root.getChildAt(GNodeLayers.PARTICLES_LAYER).removeChild(_bonusParticles.node);
+		_doOscillate = false;
 	}
 
 	override protected function getShape():Shape{
@@ -96,7 +105,7 @@ public class GStar extends NapeComponent{
 		super.init();
 		_view = node.addComponent(GSprite) as GSprite;
 		_view.texture = AssetsManager.getStarTexture();
-        _bonusParticles = GNodeFactory.createNodeWithComponent(BonusStarsParticles) as BonusStarsParticles;
+		deactivate();
 	}
 }
 }

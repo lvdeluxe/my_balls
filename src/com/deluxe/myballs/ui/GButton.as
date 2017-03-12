@@ -5,18 +5,19 @@ package com.deluxe.myballs.ui {
 import com.deluxe.myballs.*;
 import com.deluxe.myballs.AssetsManager;
 import com.deluxe.myballs.GameConstants;
-import com.genome2d.Genome2D;
-import com.genome2d.components.renderables.GSprite;
+import com.deluxe.myballs.audio.SoundManager;
+import com.genome2d.components.renderables.GSlice3Sprite;
 import com.genome2d.components.renderables.text.GText;
+import com.genome2d.context.GBlendMode;
 import com.genome2d.node.factory.GNodeFactory;
 import com.genome2d.signals.GNodeMouseSignal;
 import com.genome2d.text.GTextureTextRenderer;
 import com.genome2d.utils.GHAlignType;
 import com.genome2d.utils.GVAlignType;
 
-public class GButton extends GSprite{
+public class GButton extends GSlice3Sprite{
 
-    private var _label:GText;
+    protected var _label:GText;
     private var _clickListener:Function;
 
     public function GButton() {
@@ -24,21 +25,27 @@ public class GButton extends GSprite{
     }
 
     override public function init():void{
-        textureId = "atlas_btn_off.png";
+        texture1 = AssetsManager.getButtonLeftTexture();
+        texture2 = AssetsManager.getButtonCenterTexture();
+        texture3 = AssetsManager.getButtonRightTexture();
+        width = (int)(GameConstants.SCREEN_WIDTH * 0.6);
+        height = texture1.height;
+
         _label = GNodeFactory.createNodeWithComponent(GText) as GText;
         var renderer:GTextureTextRenderer = new GTextureTextRenderer();
-        renderer.textureAtlasId = "futura";
+        renderer.textureAtlasId = "impactButton";
         renderer.vAlign = GVAlignType.MIDDLE;
         renderer.hAlign = GHAlignType.CENTER;
-        renderer.width = texture.width;
-        renderer.height = texture.height;
+        renderer.width = width;
+        renderer.height = height;
         _label.renderer = renderer;
-        _label.node.transform.setPosition(-texture.width / 2, -texture.height / 2);
+
         node.addChild(_label.node);
         node.mouseEnabled = true;
         node.mouseChildren = true;
         node.onMouseDown.add(onMouseDown);
         node.onMouseUp.add(onMouseUp);
+        node.onMouseOut.add(onMouseOut);
     }
 
     public function setText(str:String):void{
@@ -73,13 +80,23 @@ public class GButton extends GSprite{
         _clickListener();
     }
 
-    private function onMouseDown(sig:GNodeMouseSignal):void{
-        textureId = "atlas_btn_on.png";
+    protected function onMouseDown(sig:GNodeMouseSignal):void{
+        texture1 = AssetsManager.getButtonOnLeftTexture();
+        texture2 = AssetsManager.getButtonOnCenterTexture();
+        texture3 = AssetsManager.getButtonOnRightTexture();
     }
 
-    private function onMouseUp(sig:GNodeMouseSignal):void{
+    protected function onMouseOut(sig:GNodeMouseSignal):void{
+        texture1 = AssetsManager.getButtonLeftTexture();
+        texture2 = AssetsManager.getButtonCenterTexture();
+        texture3 = AssetsManager.getButtonRightTexture();
+    }
+
+    protected function onMouseUp(sig:GNodeMouseSignal):void{
         SoundManager.playClickSfx();
-        textureId = "atlas_btn_off.png";
+        texture1 = AssetsManager.getButtonLeftTexture();
+        texture2 = AssetsManager.getButtonCenterTexture();
+        texture3 = AssetsManager.getButtonRightTexture();
     }
 }
 }

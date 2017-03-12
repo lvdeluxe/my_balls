@@ -36,7 +36,7 @@ public class AccelerometerController {
 		isAccelSupported = Accelerometer.isSupported;
 		if(isAccelSupported) {
 			_accelerometer = new Accelerometer();
-			_accelerometer.setRequestedUpdateInterval(20);
+			_accelerometer.setRequestedUpdateInterval(50);
 			_accelerometer.addEventListener(AccelerometerEvent.UPDATE, onAccelerometer);
 		}
 		else {
@@ -44,6 +44,18 @@ public class AccelerometerController {
 			_joystick.addEventListener(JoystickEvent.JOYSTICK_UPDATE, onJoystickUpdate);
 		}
 	}
+
+    public function enable():void{
+        if(isAccelSupported && !_accelerometer.hasEventListener(AccelerometerEvent.UPDATE)) {
+            _accelerometer.addEventListener(AccelerometerEvent.UPDATE, onAccelerometer);
+        }
+    }
+
+    public function disable():void{
+        if(isAccelSupported && _accelerometer.hasEventListener(AccelerometerEvent.UPDATE)) {
+            _accelerometer.removeEventListener(AccelerometerEvent.UPDATE, onAccelerometer);
+        }
+    }
 
 	private function onJoystickUpdate(e:JoystickEvent):void {
 		setOrientation(e.velX, e.velY);
@@ -54,7 +66,7 @@ public class AccelerometerController {
 	}
 
 	private function onAccelerometer(e:AccelerometerEvent):void {
-		setOrientation(-e.accelerationX * 1.5, e.accelerationY * 1.5);
+		setOrientation(-e.accelerationX, e.accelerationY);
 	}
 }
 }

@@ -6,6 +6,7 @@ import com.deluxe.myballs.*;
 import com.deluxe.myballs.AssetsManager;
 import com.deluxe.myballs.GameConstants;
 import com.deluxe.myballs.GameSignals;
+import com.deluxe.myballs.audio.SoundManager;
 import com.genome2d.components.renderables.GSprite;
 import com.genome2d.signals.GNodeMouseSignal;
 

@@ -1,44 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="Flex" version="4">
-  <component name="FlexBuildConfigurationManager" active="MyBalls">
+  <component name="FlexBuildConfigurationManager" active="beFall">
     <configurations>
-      <configuration name="MyBalls" target-platform="Mobile" pure-as="true" main-class="Main" output-file="MyBalls.swf" output-folder="$MODULE_DIR$/bin/MyBalls">
-        <dependencies target-player="14.0">
+      <configuration name="beFall" target-platform="Mobile" pure-as="true" main-class="Main" output-file="beFall.swf" output-folder="$MODULE_DIR$/bin/beFall">
+        <dependencies>
           <entries>
             <entry library-name="lib" library-level="project">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-id="d6b8a764-5e70-4109-a2b0-34a60bd88a2b">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="f9a40edf-8530-460e-b8a1-4f255a52a840">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="de22d0fa-053d-4339-837f-1764aa205fab">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="AIRSDK_17" />
+          <sdk name="air17_sdk_win" />
         </dependencies>
         <compiler-options>
           <map>
             <entry key="compiler.debug.swf" value="false" />
-            <entry key="compiler.define" value="CONFIG::debug&#9;false" />
+            <entry key="compiler.define" value="CONFIG::debug&#9;false&#10;CONFIG::release&#9;true" />
           </map>
+          <option name="resourceFilesMode" value="None" />
           <option name="additionalOptions" value="-debug=false -optimize=true" />
         </compiler-options>
         <packaging-air-desktop />
         <packaging-android use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app.xml" package-file-name="MyBalls" />
-        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app.xml" package-file-name="MyBalls">
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app.xml" package-file-name="beFall">
           <files-to-package>
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-568h@2x~iphone.png" path-in-package="Default-568h@2x~iphone.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape@2x~ipad.png" path-in-package="Default-Landscape@2x~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape~ipad.png" path-in-package="Default-Landscape~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait@2x~ipad.png" path-in-package="Default-Portrait@2x~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait~ipad.png" path-in-package="Default-Portrait~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default@2x~iphone.png" path-in-package="Default@2x~iphone.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_1024.png" path-in-package="appicon_1024.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_114.png" path-in-package="appicon_114.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_120.png" path-in-package="appicon_120.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_144.png" path-in-package="appicon_144.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_152.png" path-in-package="appicon_152.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_180.png" path-in-package="appicon_180.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_512.png" path-in-package="appicon_512.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_57.png" path-in-package="appicon_57.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_72.png" path-in-package="appicon_72.png" />
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/app_icons/appicon_76.png" path-in-package="appicon_76.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/ipad/Default-Landscape@2x~ipad.png" path-in-package="Default-Landscape@2x~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/ipad/Default-Landscape~ipad.png" path-in-package="Default-Landscape~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/ipad/Default-Portrait@2x~ipad.png" path-in-package="Default-Portrait@2x~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/ipad/Default-Portrait~ipad.png" path-in-package="Default-Portrait~ipad.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/iphone/Default-375w-667h@2x~iphone.png" path-in-package="Default-375w-667h@2x~iphone.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/iphone/Default-414w-736h@3x~iphone.png" path-in-package="Default-414w-736h@3x~iphone.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/iphone/Default-568h@2x~iphone.png" path-in-package="Default-568h@2x~iphone.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/iphone/Default-Landscape-414w-736h@3x~iphone.png" path-in-package="Default-Landscape-414w-736h@3x~iphone.png" />
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/iphone/Default@2x~iphone.png" path-in-package="Default@2x~iphone.png" />
           </files-to-package>
-          <AirSigningOptions adt-options="-useLegacyAOT no" keystore-path="$MODULE_DIR$/mobile/iphone_dev.p12" provisioning-profile-path="$MODULE_DIR$/mobile/BallFall.mobileprovision" />
+          <AirSigningOptions keystore-path="$MODULE_DIR$/mobile/iphone_dist.p12" provisioning-profile-path="$MODULE_DIR$/mobile/beFallDist.mobileprovision" />
         </packaging-ios>
       </configuration>
       <configuration name="MyBalls_debug" target-platform="Mobile" pure-as="true" main-class="Main" output-file="MyBalls_debug.swf" output-folder="$MODULE_DIR$/bin/MyBalls">
@@ -47,27 +61,25 @@
             <entry library-name="lib" library-level="project">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-id="bef93d2c-9089-42bc-98c5-72cc9aeb6abb">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="550c6b9d-0943-448a-8ced-bd635c098d32">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="AIRSDK_17" />
+          <sdk name="air17_sdk_win" />
         </dependencies>
         <compiler-options>
           <map>
             <entry key="compiler.debug.swf" value="true" />
-            <entry key="compiler.define" value="CONFIG::debug&#9;true" />
+            <entry key="compiler.define" value="CONFIG::debug&#9;true&#10;CONFIG::release&#9;false" />
           </map>
-          <option name="additionalOptions" value="-advanced-telemetry" />
+          <option name="resourceFilesMode" value="None" />
         </compiler-options>
         <packaging-air-desktop />
-        <packaging-android package-file-name="MyBalls_debug" />
-        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app.xml" package-file-name="MyBalls_debug">
-          <files-to-package>
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-568h@2x~iphone.png" path-in-package="Default-568h@2x~iphone.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape@2x~ipad.png" path-in-package="Default-Landscape@2x~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Landscape~ipad.png" path-in-package="Default-Landscape~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait@2x~ipad.png" path-in-package="Default-Portrait@2x~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default-Portrait~ipad.png" path-in-package="Default-Portrait~ipad.png" />
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/mobile/splash/Default@2x~iphone.png" path-in-package="Default@2x~iphone.png" />
-          </files-to-package>
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app_emul.xml" package-file-name="MyBalls_debug" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/MyBalls-app_emul.xml" package-file-name="MyBalls_debug">
           <AirSigningOptions keystore-path="$MODULE_DIR$/mobile/iphone_dev.p12" provisioning-profile-path="$MODULE_DIR$/mobile/BallFall.mobileprovision" />
         </packaging-ios>
       </configuration>
@@ -78,7 +90,7 @@
               <dependency linkage="Merged" />
             </entry>
           </entries>
-          <sdk name="AIRSDK_17" />
+          <sdk name="air17_sdk_win" />
         </dependencies>
         <compiler-options>
           <map>
@@ -95,13 +107,16 @@
             <entry library-name="lib" library-level="project">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-id="b57d39d6-3e03-447c-a23c-75476cb424c9">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="AIRSDK_17" />
+          <sdk name="air17_sdk_win" />
         </dependencies>
         <compiler-options>
           <map>
             <entry key="compiler.debug.swf" value="false" />
-            <entry key="compiler.define" value="CONFIG::debug&#9;false" />
+            <entry key="compiler.define" value="CONFIG::debug&#9;false&#10;CONFIG::release&#9;true" />
           </map>
           <option name="additionalOptions" value="-debug=false -optimize=true" />
         </compiler-options>
@@ -139,7 +154,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="AIRSDK_17" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="air17_sdk_win" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="lib" level="project" />
     <orderEntry type="module-library" exported="">
@@ -153,6 +168,65 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="b57d39d6-3e03-447c-a23c-75476cb424c9" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/ane/loopme-adobe-air.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="d6b8a764-5e70-4109-a2b0-34a60bd88a2b" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/ane/gameCenter.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="f9a40edf-8530-460e-b8a1-4f255a52a840" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/ane/Social.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="bef93d2c-9089-42bc-98c5-72cc9aeb6abb" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/ane/gameCenter.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="550c6b9d-0943-448a-8ced-bd635c098d32" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/ane/Social.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="de22d0fa-053d-4339-837f-1764aa205fab" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/ane/Chartboost.ane!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
-

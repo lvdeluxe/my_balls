@@ -8,6 +8,8 @@ public class GNodeLayers {
     public static const PLATFORM_LAYER:uint = 2;
     public static const PARTICLES_LAYER:uint = 3;
     public static const WALLS_LAYER:uint = 4;
-    public static const UI_LAYER:uint = 5;
+    public static const FOREGROUND_LAYER:uint = 5;
+    public static const GAME_OVER_LAYER:uint = 6;
+    public static const UI_LAYER:uint = 7;
 }
 }

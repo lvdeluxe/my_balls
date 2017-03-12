@@ -1,0 +1,26 @@
+{
+	"strings":{
+        "ENERGY_ID":"ENERGY",
+		"CREDITS_ID":"CREDITS",
+		"HOWTO_ID":"HOW TO PLAY",
+		"SFX_ID":"SOUNDS",
+		"MUSIC_ID":"MUSIC",
+        "PLAY_ID":"PLAY",
+        "OPTIONS_ID":"OPTIONS",
+        "MAIN_ID":"MAIN MENU",
+        "MORE_GAMES_ID":"MORE GAMES",
+        "CREDITS_CONTENT_ID":"DESIGN:\nArnaud Vaillant\n\nPROGRAMMING:\nArnaud Vaillant\n\nART:\nAlexis Vaillant\n\nMUSIC:\nIncompetech - Kevin MacLeod \n\nSpecial Thanks:\nLouis Vaillant-Assante\n\nPowered by Genome2D",
+        "HOWTO_CONTENT_ID":"Orient the device\nto move the ball.\n\nTap on the screen\nto make the ball jump.\n\nAvoid all hazards\nand collect Orbs\nto refill your energy.\n\nCollect power-ups to increase\nyour chance to survive\n\nGood Luck!",
+        "SOCIAL_MSG_ID":"Check-out this cool game : beFall!",
+        "SOCIAL_SCORE_MSG_ID":"I had a new high score at beFall :",
+        "INDESTRUCTIBLE_ID":"INDESTRUCTIBLE !",
+        "POWERUP_BALL_ID":"EXTRA BALL !",
+        "POWERUP_GRAVITY_ID":"SPEED BONUS !",
+        "POWERUP_STARS_ID":"MORE ORBS !",
+        "TUTO_STEP_1":"Orient the device\n   to move the ball.   ",
+        "TUTO_STEP_2":"You can make the ball jump\n   by taping on your screen.   ",
+        "TUTO_STEP_3":"Avoid all hazards\nand collect Orbs\n to refill your energy. ",
+        "TUTO_STEP_4":"   Good Luck!            ",
+        "HIGH_SCORE":"HIGH SCORE!"
+	}
+}

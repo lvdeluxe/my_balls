@@ -6,20 +6,21 @@ import com.deluxe.myballs.*;
 import com.deluxe.myballs.AssetsManager;
 import com.deluxe.myballs.GameConstants;
 import com.deluxe.myballs.GameSignals;
+import com.deluxe.myballs.audio.SoundManager;
 import com.genome2d.components.renderables.GSprite;
 import com.genome2d.signals.GNodeMouseSignal;
 
 public class GPauseButton extends GSprite{
 
 
-    public var isPause:Boolean = false;
+    private var _isPause:Boolean = false;
 
     public function GPauseButton() {
 
     }
 
     override public function init():void{
-        texture = isPause ? AssetsManager.getPauseBtnOffTexture() : AssetsManager.getResumeBtnOffTexture();
+        texture = _isPause ? AssetsManager.getPauseBtnOffTexture() : AssetsManager.getResumeBtnOffTexture();
         node.mouseEnabled = true;
         node.onMouseDown.add(onMouseDown);
         node.onMouseUp.add(onMouseUp);
@@ -41,16 +42,21 @@ public class GPauseButton extends GSprite{
     }
 
     private function onMouseClick(sig:GNodeMouseSignal):void{
-       GameSignals.PAUSE.dispatch(isPause);
+       GameSignals.PAUSE.dispatch(_isPause);
     }
 
     private function onMouseDown(sig:GNodeMouseSignal):void{
-        texture = isPause ? AssetsManager.getPauseBtnOnTexture() : AssetsManager.getResumeBtnOnTexture();
+        texture = _isPause ? AssetsManager.getPauseBtnOnTexture() : AssetsManager.getResumeBtnOnTexture();
     }
 
     private function onMouseUp(sig:GNodeMouseSignal):void{
         SoundManager.playClickSfx();
-        texture = isPause ? AssetsManager.getPauseBtnOffTexture() : AssetsManager.getResumeBtnOffTexture();
+        texture = _isPause ? AssetsManager.getPauseBtnOffTexture() : AssetsManager.getResumeBtnOffTexture();
+    }
+
+    public function set isPause(value:Boolean):void {
+        _isPause = value;
+        texture = _isPause ? AssetsManager.getPauseBtnOffTexture() : AssetsManager.getResumeBtnOffTexture();
     }
 }
 }

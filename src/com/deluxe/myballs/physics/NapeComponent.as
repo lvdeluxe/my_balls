@@ -5,6 +5,8 @@ package com.deluxe.myballs.physics {
 import com.genome2d.Genome2D;
 import com.genome2d.components.GComponent;
 
+import nape.dynamics.InteractionGroup;
+
 import nape.phys.Body;
 import nape.phys.BodyType;
 import nape.phys.Material;
@@ -21,8 +23,13 @@ public class NapeComponent extends GComponent{
 		super();
 		_body = new Body(getBodyType());
 		_body.shapes.add(getShape());
+        setCollisionGroup();
 		_space = (Genome2D.getInstance().root.getComponent(GNapePhysics) as GNapePhysics).space;
 	}
+
+    protected function setCollisionGroup():void {
+        _body.shapes.at(0).filter.collisionGroup = 2;
+    }
 
 	override public function init():void{
 		super.init();

@@ -12,7 +12,7 @@
                 <property name="alpha" type="Float" value="1"/>
             </properties>
         </component>
-        <component componentClass="com.deluxe.myballs.platforms.GDestructiblePlatform" componentLookupClass="com.deluxe.myballs.platforms.GDestructiblePlatform">
+        <component componentClass="com.deluxe.myballs.game.platforms.GDestructiblePlatform" componentLookupClass="com.deluxe.myballs.game.platforms.GDestructiblePlatform">
             <properties/>
         </component>
     </components>

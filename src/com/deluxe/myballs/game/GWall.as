@@ -22,6 +22,11 @@ public class GWall extends NapeComponent{
 		return shape
 	}
 
+    override protected function setCollisionGroup():void {
+        _body.shapes.at(0).filter.collisionGroup = 4;
+    }
+
+
     override public function init():void{
         super.init();
         _body.space = _space;

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0a4b34b-8797-4c6f-b3b3-5a316bc4ea6a" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\FUTURAMI.TTF" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\futura.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\futura_18.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\futura_18_blue.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\futura_18_darkBlue.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\layout2.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\bar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\bonus_box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\btn_off.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\btn_on.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\btn_options_off.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\enemy_container_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\enemy_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\mini_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\platform_center.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\platform_destructible.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\platform_left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\platform_right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\spikes.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\star_particle.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\ui_box_center.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\ui_box_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\art\source\ui_box_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\lib\greensock.swc" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\mobile\splash\Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\mobile\splash\Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\mobile\splash\Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\mobile\splash\Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\mobile\splash\Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\mobile\splash\Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\background_desaturate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\fonts\futura.fnt" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\fonts\futura.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\prototypes\arrowPlatform_proto.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\prototypes\spikesPlatform_proto.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\sprites.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\sprites.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\wall_tile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\assets\wall_tile_desaturate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\SoundManager.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\game\GArrow.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\game\GSpike.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\particles\BonusStarsParticles.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\particles\OrbAffector.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\particles\OrbInitializer.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\particles\OrbParticle.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\particles\OrbParticles.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GArrowPlatform.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GCritterPlatform.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GDestructiblePlatform.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GMovingPlatform.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GPlatform.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GPlatformFactory.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GSpikesPlatform.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\deluxe\my_balls\src\com\deluxe\myballs\platforms\GStarsPlatform.as" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_1024.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_1024.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_114.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_114.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_120.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_120.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_144.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_144.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_152.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_152.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_512.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_512.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_57.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_57.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_72.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_72.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/app_icons/appicon_76.png" afterPath="$PROJECT_DIR$/mobile/app_icons/appicon_76.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/ball.png" afterPath="$PROJECT_DIR$/art/source/ball.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/bonus_ballX3.png" afterPath="$PROJECT_DIR$/art/source/bonus_ballX3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/bonus_starsX2.png" afterPath="$PROJECT_DIR$/art/source/bonus_starsX2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sfx/bounce.mp3" afterPath="$PROJECT_DIR$/src/assets/sfx/bounce.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/btn_pause_off.png" afterPath="$PROJECT_DIR$/art/source/btn_pause_off.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/btn_pause_on.png" afterPath="$PROJECT_DIR$/art/source/btn_pause_on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/btn_play_off.png" afterPath="$PROJECT_DIR$/art/source/btn_play_off.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/btn_play_on.png" afterPath="$PROJECT_DIR$/art/source/btn_play_on.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/close_btn_off.png" afterPath="$PROJECT_DIR$/art/source/close_btn_off.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sfx/collect.mp3" afterPath="$PROJECT_DIR$/src/assets/sfx/collect.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/critter.png" afterPath="$PROJECT_DIR$/art/source/critter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sfx/explosion.mp3" afterPath="$PROJECT_DIR$/src/assets/sfx/explosion.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/logo.png" afterPath="$PROJECT_DIR$/art/source/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/particle.png" afterPath="$PROJECT_DIR$/art/source/particle.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_bottom.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_bottom.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_bottom_left.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_bottom_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_bottom_right.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_bottom_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_center.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_center.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_left.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_right.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_top.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_top.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_top_left.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_top_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_bg_top_right.png" afterPath="$PROJECT_DIR$/art/source/popup_bg_top_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/popup_modal.png" afterPath="$PROJECT_DIR$/art/source/popup_modal.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/sfx/star.mp3" afterPath="$PROJECT_DIR$/src/assets/sfx/star.mp3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/source/star.png" afterPath="$PROJECT_DIR$/art/source/star.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/art/ui.psd" afterPath="$PROJECT_DIR$/art/ui.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/AccelerometerController.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/AccelerometerController.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/AssetsManager.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/AssetsManager.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BallParticles.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BallParticles.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusAffector.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusAffector.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusParticle.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusParticle.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusParticles.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/BonusParticles.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/ExplodeParticles.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/ExplodeParticles.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GBall.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GBall.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GBonus.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GBonus.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GButton.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GButton.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GCloseButton.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GCloseButton.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GCritter.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GCritter.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/physics/GNapePhysics.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/physics/GNapePhysics.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/GNodeLayers.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/GNodeLayers.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GPauseButton.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/GPauseButton.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GStar.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GStar.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GWall.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/game/GWall.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/GameConstants.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/GameConstants.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/GameSignals.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/GameSignals.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.as" afterPath="$PROJECT_DIR$/src/Main.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBalls-app.xml" afterPath="$PROJECT_DIR$/MyBalls-app.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBalls.iml" afterPath="$PROJECT_DIR$/MyBalls.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBalls.ipr" afterPath="$PROJECT_DIR$/MyBalls.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBalls.iws" afterPath="$PROJECT_DIR$/MyBalls.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/physics/NapeCollisionTypes.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/physics/NapeCollisionTypes.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/physics/NapeComponent.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/physics/NapeComponent.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/ParticlesFactory.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/particles/ParticlesFactory.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/UIManager.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/ui/UIManager.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/deluxe/myballs/utils/VirtualJoystick.as" afterPath="$PROJECT_DIR$/src/com/deluxe/myballs/utils/VirtualJoystick.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/prototypes/critterPlatform_proto.xml" afterPath="$PROJECT_DIR$/src/assets/prototypes/critterPlatform_proto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/prototypes/defaultPlatform_proto.xml" afterPath="$PROJECT_DIR$/src/assets/prototypes/defaultPlatform_proto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/prototypes/destructPlatform_proto.xml" afterPath="$PROJECT_DIR$/src/assets/prototypes/destructPlatform_proto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/prototypes/movingPlatform_proto.xml" afterPath="$PROJECT_DIR$/src/assets/prototypes/movingPlatform_proto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/prototypes/starsPlatform_proto.xml" afterPath="$PROJECT_DIR$/src/assets/prototypes/starsPlatform_proto.xml" />
+    </list>
+    <ignored path="my_balls.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="my_balls" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.as" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37335286">
+              <caret line="87" column="50" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_balls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_balls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_balls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_balls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_balls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0a4b34b-8797-4c6f-b3b3-5a316bc4ea6a" name="Default" comment="" />
+      <created>1430181127113</created>
+      <option name="number" value="Default" />
+      <updated>1430181127113</updated>
+      <workItem from="1430181133334" duration="232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="232000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="100" y="20" width="1400" height="820" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37335286">
+          <caret line="87" column="50" selection-start-line="87" selection-start-column="50" selection-end-line="87" selection-end-column="50" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>air17_sdk_win</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>my_balls</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

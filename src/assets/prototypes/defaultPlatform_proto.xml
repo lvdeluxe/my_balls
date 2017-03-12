@@ -12,7 +12,7 @@
                 <property name="alpha" type="Float" value="1"/>
             </properties>
         </component>
-        <component id="" componentClass="com.deluxe.myballs.platforms.GPlatform" componentLookupClass="com.deluxe.myballs.platforms.GPlatform">
+        <component id="" componentClass="com.deluxe.myballs.game.platforms.GPlatform" componentLookupClass="com.deluxe.myballs.game.platforms.GPlatform">
             <properties/>
         </component>
     </components>

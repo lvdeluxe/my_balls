@@ -8,6 +8,8 @@ import com.deluxe.myballs.physics.NapeCollisionTypes;
 import com.deluxe.myballs.physics.NapeComponent;
 import com.genome2d.components.renderables.GSprite;
 
+import nape.geom.Vec2;
+
 import nape.phys.Body;
 
 import nape.shape.Polygon;
@@ -28,20 +30,25 @@ public class GBonus extends NapeComponent{
         activate();
     }
 
-    private function onCollectBonus(pBonus:Body, pBall:Body):void {
+    private function onCollectBonus(pos:Vec2, pBonus:Body):void {
         if(pBonus == _body){
             deactivate();
         }
     }
 
+    override protected function setCollisionGroup():void {
+        _body.shapes.at(0).filter.collisionGroup = 2;
+        _body.shapes.at(0).filter.sensorGroup = 2;
+    }
+
     override public function deactivate():void{
         super.deactivate();
-        GameSignals.COLLECT_BONUS.remove(onCollectBonus);
+        GameSignals.COLLECTED_BONUS.remove(onCollectBonus);
     }
 
     override public function activate():void{
         super.activate();
-        GameSignals.COLLECT_BONUS.add(onCollectBonus);
+        GameSignals.COLLECTED_BONUS.add(onCollectBonus);
     }
 
 
@@ -51,7 +58,7 @@ public class GBonus extends NapeComponent{
     }
 
     override protected function getShape():Shape{
-        var shape:Shape = new Polygon(Polygon.box(32,32,true));
+        var shape:Shape = new Polygon(Polygon.box(AssetsManager.getBonusTexture().width,AssetsManager.getBonusTexture().height,true));
         shape.material = getMaterial();
         shape.sensorEnabled = true;
         shape.cbTypes.add(NapeCollisionTypes.BONUS_COLLISION);

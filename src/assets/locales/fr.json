@@ -1,0 +1,26 @@
+{
+    "strings":{
+        "ENERGY_ID":"ÉNERGIE",
+        "CREDITS_ID":"CRÉDITS",
+        "HOWTO_ID":"TUTORIEL",
+        "SFX_ID":"SONS",
+        "MUSIC_ID":"MUSIQUE",
+        "PLAY_ID":"JOUER",
+        "OPTIONS_ID":"OPTIONS",
+        "MAIN_ID":"MENU PRINCIPAL",
+        "MORE_GAMES_ID":"PLUS DE JEUX",
+        "CREDITS_CONTENT_ID":"CONCEPTION\nArnaud Vaillant\n\nPROGRAMMATION\nArnaud Vaillant\n\nART\nAlexis Vaillant\n\nMUSIQUE\nIncompetech - Kevin MacLeod\n\nREMERCIEMENTS\nLouis Vaillant-Assante\n\nPropulsé par Genome2D",
+        "HOWTO_CONTENT_ID":"Oriente l'appareil\npour déplacer la boule.\n\nTouche l'écran\npour faire sauter la boule.\n\nÉvite les dangers\net collecte des Orbes\npour remplir ton énergie.\n\nCollecte des bonus pour\naugmenter tes chance de survie\n\nBonne chance!",
+        "SOCIAL_MSG_ID":"Va voir ce jeu cool : beFall!",
+        "SOCIAL_SCORE_MSG_ID":"J'ai battu mon meilleur score à beFall :",
+        "INDESTRUCTIBLE_ID":"INDESTRUCTIBLE !",
+        "POWERUP_BALL_ID":"EXTRA BALLE !",
+        "POWERUP_GRAVITY_ID":"BONUS DE VITESSE !",
+        "POWERUP_STARS_ID":"PLUS D'ORBES!",
+        "TUTO_STEP_1":"Oriente l'appareil\n   pour déplacer la boule.   ",
+        "TUTO_STEP_2":"Touche l'écran\n   pour faire sauter la boule.   ",
+        "TUTO_STEP_3":"Évite les dangers\net collecte des Orbes\n pour remplir ton énergie. ",
+        "TUTO_STEP_4":"   Bonne chance!            ",
+        "HIGH_SCORE":"MEILLEUR SCORE!"
+    }
+}
